@@ -2,7 +2,7 @@
 SELECT COUNT(*) from ESTUDIANTE 
 inner JOIN INSCRIPCION ON (legajo = ESTUDIANTE_legajo) 
 INNER JOIN CURSO on (CURSO_codigo = codigo)
-where CURSO.nombre = "Mecanica";
+where ESTUDIANTE.carrera = "Mecanica";
 
 --2
 SELECT MIN(salario) FROM PROFESOR WHERE fecha_nacimiento BETWEEN '1980/1/01' AND '1989/12/31';
