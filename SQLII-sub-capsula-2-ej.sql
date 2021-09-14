@@ -1,3 +1,5 @@
+-- modelo: https://lh3.googleusercontent.com/H0OrPiaFu3RKjSoIhFUPJPbTdFGG4gu4S24qHmTSjaRV04QpYZbICRQ-Y6i-DnNCH6pxt0gqLYTbISTuIpAPmM73XXlOS228hhbpmg5DrrvbjD9UiW6hhwujnV8PGoSYq6ZCxSM
+
 --1 Nombre, apellido y cursos que realiza cada estudiante
 SELECT 
 ESTUDIANTE.nombre as nombre_estudiante, ESTUDIANTE.apellido, CURSO.nombre as nombre_curso 
