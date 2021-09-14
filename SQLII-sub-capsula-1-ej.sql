@@ -1,7 +1,5 @@
 --1 Teniendo en cuenta siguiente modelo: https://lh3.googleusercontent.com/H0OrPiaFu3RKjSoIhFUPJPbTdFGG4gu4S24qHmTSjaRV04QpYZbICRQ-Y6i-DnNCH6pxt0gqLYTbISTuIpAPmM73XXlOS228hhbpmg5DrrvbjD9UiW6hhwujnV8PGoSYq6ZCxSM
 SELECT COUNT(*) from ESTUDIANTE 
-inner JOIN INSCRIPCION ON (legajo = ESTUDIANTE_legajo) 
-INNER JOIN CURSO on (CURSO_codigo = codigo)
 where ESTUDIANTE.carrera = "Mecanica";
 
 --2
